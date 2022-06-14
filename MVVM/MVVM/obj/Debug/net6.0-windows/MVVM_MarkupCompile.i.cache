@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\Alex\source\repos\MVVM\MVVM\App.xaml
-8448561469
+9-1951618306
 
-121004263260
-1942030480316
-AdminForm.xaml;AdminLog.xaml;CreateActorWindow.xaml;MovieWindow.xaml;PosterWindow.xaml;TicketWindow.xaml;Window1.xaml;Window2.xaml;
+34-7453370
+208-113997526
+view\AddMovieWindow.xaml;view\AddSenseWindow.xaml;view\AdminDistribution.xaml;view\AdminLog.xaml;view\CreateActorWindow.xaml;view\MovieWindow.xaml;view\PosterWindow.xaml;view\TicketWindow.xaml;view\UserDistributionWindow.xaml;
 
-True
+False
 

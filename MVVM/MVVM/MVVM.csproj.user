@@ -1,57 +1,59 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
+  <ItemGroup />
   <ItemGroup>
-    <ApplicationDefinition Update="App.xaml">
-      <SubType>Designer</SubType>
-    </ApplicationDefinition>
+    <Compile Update="View\AddSenseWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\AdminLog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\MovieWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\TicketWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\AdminDistribution.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\AddMovieWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\CreateActorWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\UserDistributionWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="AdminForm.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="AdminLog.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="MovieWindow.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="TicketWindow.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="Window1.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="Window2.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="CreateActorWindow.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Page Update="AdminForm.xaml">
+    <Page Update="View\AddSenseWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="AdminLog.xaml">
+    <Page Update="View\AdminLog.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="PosterWindow.xaml">
+    <Page Update="View\PosterWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="MovieWindow.xaml">
+    <Page Update="View\MovieWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="TicketWindow.xaml">
+    <Page Update="View\TicketWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Window1.xaml">
+    <Page Update="View\AdminDistribution.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Window2.xaml">
+    <Page Update="View\AddMovieWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="CreateActorWindow.xaml">
+    <Page Update="View\CreateActorWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\UserDistributionWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
