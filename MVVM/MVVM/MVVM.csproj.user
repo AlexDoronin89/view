@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="AdminForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AdminLog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MovieWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TicketWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Window1.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Window2.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CreateActorWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="AdminForm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AdminLog.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PosterWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MovieWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TicketWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Window1.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Window2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CreateActorWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
