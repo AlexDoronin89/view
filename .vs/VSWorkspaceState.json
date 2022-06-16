@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    "\\MVVM"
+    "",
+    "\\MVVM",
+    "\\MVVM\\MVVM",
+    "\\MVVM\\MVVM\\view"
   ],
+  "SelectedNode": "\\MVVM\\MVVM\\view\\UserDistributionWindow.xaml",
   "PreviewInSolutionExplorer": false
 }
